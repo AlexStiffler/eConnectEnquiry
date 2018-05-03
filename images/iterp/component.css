@@ -1,0 +1,157 @@
+.hi-icon {
+	display: inline-block;
+	font-size: 10px;
+	cursor: pointer;
+	margin: 15px 40px;
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	color: #fff;
+    font-size:18px;
+
+}
+.hi-icon:before {
+
+	speak: none;
+	font-size: 48px;
+	display: block;
+    padding-top: 20px;
+}
+.hi-icon-mobile:before {
+
+	content:url('icon_a.png');
+}
+
+.hi-icon-screen:before {
+
+	content:url('icon_b.png');
+}
+
+.hi-icon-earth:before {
+	content: url('icon_c.png');
+}
+
+.hi-icon-support:before {
+	content: url('icon_d.png');
+}
+
+.hi-icon-locked:before {
+	content: url('icon_e.png');
+}
+
+.hi-icon-cog:before {
+	content: url('icon_f.png');
+}
+
+.hi-icon-clock:before {
+	content: url('icon_g.png');
+}
+
+.hi-icon-videos:before {
+	content: url('icon_h.png');
+}
+
+.hi-icon-list:before {
+	content: url('icon_i.png');
+}
+
+.hi-icon-refresh:before {
+	content: url('icon_j.png');
+}
+
+/* Effect 1 */
+.hi-icon-effect-1 .hi-icon {
+	background: rgba(255,255,255,0.1);
+	-webkit-transition: background 0.2s, color 0.2s;
+	-moz-transition: background 0.2s, color 0.2s;
+	transition: background 0.2s, color 0.2s;
+}
+
+
+
+/* Effect 1a */
+.hi-icon-effect-1a .hi-icon:hover {
+	background: rgba(255,255,255,1);
+	color: #41ab6b;
+}
+
+.hi-icon-effect-1a .hi-icon:hover:after {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+
+.hi-icon-effect-2a .hi-icon:hover:after {
+	-webkit-transform: scale(0.85);
+	-moz-transform: scale(0.85);
+	-ms-transform: scale(0.85);
+	transform: scale(0.85);
+}
+
+@-webkit-keyframes spinAround {
+	from {
+		-webkit-transform: rotate(0deg)
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+	}
+}
+@-moz-keyframes spinAround {
+	from {
+		-moz-transform: rotate(0deg)
+	}
+	to {
+		-moz-transform: rotate(360deg);
+	}
+}
+@keyframes spinAround {
+	from {
+		transform: rotate(0deg)
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+/* Effect 5 */
+.hi-icon-effect-5 .hi-icon {
+	box-shadow: 0 0 0 3px #FFC107;
+
+	-webkit-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+	-moz-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+	transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+
+
+.hi-icon-effect-5 .hi-icon:hover {
+	    background: rgb(148, 148, 148);
+    color: #702fa8;
+    box-shadow: 0 0 0 8px rgba(30, 178, 184, 0.22);
+}
+
+.hi-icon-effect-5d .hi-icon:hover:before {
+	-webkit-animation: toBottomFromTop 0.3s forwards;
+	-moz-animation: toBottomFromTop 0.3s forwards;
+	animation: toBottomFromTop 0.3s forwards;
+}
+
+@-webkit-keyframes toBottomFromTop {
+	49% {
+		-webkit-transform: translateY(100%);
+	}
+	50% {
+		opacity: 0;
+		-webkit-transform: translateY(-100%);
+	}
+	51% {
+		opacity: 1;
+	}
+}
+

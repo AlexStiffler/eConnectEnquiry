@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="sumbmitEnquiryapplication">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="URL" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PAGENAME" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NAME" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EMAIL" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PHONE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ADDRESS" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CITY" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="STATENAME" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PINCODE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="COUNTRY" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="COMPANYNAME" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="COMPANYEMAIL" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CONTACTPERSON" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="COMPANYADDRESS" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="COMPANYPHONENUMBER" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PROJECTBUDGET" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PROJECTTIMEFRAME" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PRODUCT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="BUSSINESSTYPE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CHANEL" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SUBJECT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MESSAGE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="IPADDRESS" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ATTACHMENT" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sumbmitEnquiryapplicationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sumbmitEnquiryapplicationResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
